@@ -90,7 +90,10 @@ if (typeof valore === "number") {
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
-
+if(numero % 2 === 0) {
+  console.log(numero + " è un numero pari.");
+} else {
+  console.log(numero + " è un numero dispari.");
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
